@@ -13,9 +13,21 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "@sindresorhus/slugify": "^2.2.1",
+    "add": "^2.0.6",
     "gatsby": "^5.12.4",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-mdx": "^5.12.3",
+    "gatsby-plugin-mdx-frontmatter": "^0.0.4",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-remark-images": "^7.12.3",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-transformer-remark": "^6.12.3",
+    "gatsby-transformer-sharp": "^5.12.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "reading-time": "^1.5.0"
   },
   "repository": {
     "type": "git",
@@ -23,5 +35,9 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.33.2"
   }
 }
